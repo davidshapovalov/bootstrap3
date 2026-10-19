@@ -5,8 +5,9 @@ import java.util.List;
 
 public interface StudentService {
     List<Student> findAll();
-    public Student save(Student student);
-    public void deleteById(Integer id);
-    public List<Student> findByFirstNameAndLastName(String firstName, String lastName);
+    Student save(Student student);
+    void deleteById(Integer id);
+    List<Student> findByFirstNameAndLastName(String firstName, String lastName);
     Student findById(int id);
+    List<Student> getSortedStudents();
 }
