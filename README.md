@@ -11,3 +11,9 @@ Zadanie 3 : Employees
 <img width="485" height="409" alt="image" src="https://github.com/user-attachments/assets/26ce1026-f533-4f46-b4b3-4aaa084d09cb" />
 <img width="361" height="402" alt="image" src="https://github.com/user-attachments/assets/d95bb72b-8d02-4dfc-a343-bdd1d641be06" />
 <img width="370" height="373" alt="image" src="https://github.com/user-attachments/assets/117eda1c-4676-4706-83cf-584ac4c25d55" />
+
+===========================================================
+
+Zadanie 4 : Employees
+<img width="596" height="327" alt="image" src="https://github.com/user-attachments/assets/89d58119-7ea8-4992-9b6c-d4eeae548252" />
+<img width="482" height="268" alt="image" src="https://github.com/user-attachments/assets/c8fde3e9-00f5-4f1c-a886-62a907a94e11" />
