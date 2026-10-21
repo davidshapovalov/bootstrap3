@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
+import jakarta.validation.constraints.Pattern;
 
 @Entity
 @Table(name = "Student")
@@ -25,7 +26,7 @@ public class Student {
 
     @NotBlank(message = "Email je povinný")
     @Email(message = "Neplatný email")
-    @Size(max = 100, message = "Email môže mať najviac 100 znakov")
+    @Pattern(regexp = "^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,6}$", message = "Email musí mať správny formát (napr. meno@domena.sk)")
     @Column(name = "email")
     private String email;
 

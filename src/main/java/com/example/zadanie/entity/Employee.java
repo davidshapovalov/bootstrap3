@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import jakarta.validation.constraints.*;
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import jakarta.validation.constraints.Pattern;
 
 @Entity
 @Table(name = "employee")
@@ -27,6 +28,7 @@ public class Employee {
 
     @NotBlank(message = "Email je povinný")
     @Email(message = "Neplatný email")
+    @Pattern(regexp = "^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,6}$", message = "Email musí mať správny formát (napr. meno@domena.sk)")
     @Column(name = "email")
     private String email;
 
