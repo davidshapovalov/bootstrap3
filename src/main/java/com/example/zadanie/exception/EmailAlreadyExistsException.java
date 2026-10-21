@@ -1,0 +1,7 @@
+package com.example.zadanie.exception;
+
+public class EmailAlreadyExistsException extends RuntimeException {
+    public EmailAlreadyExistsException(String email) {
+        super("Email " + email + " už existuje");
+    }
+}
